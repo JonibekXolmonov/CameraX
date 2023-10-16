@@ -41,9 +41,8 @@ fun PhotoBottomSheetContent(
                 Image(
                     bitmap = bitmap.asImageBitmap(),
                     contentDescription = null,
-                    modifier = Modifier.clip(
-                        RoundedCornerShape(10.dp)
-                    )
+                    modifier = Modifier
+                        .clip(RoundedCornerShape(10.dp))
                 )
             }
         }
